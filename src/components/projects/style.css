@@ -1,5 +1,5 @@
 .projects {
-  padding: 5rem 0rem;
+  padding: 5rem 10rem;
   background-color: #090927;
   color: #ffffff;
 }
@@ -10,7 +10,7 @@
 
 .project-cards {
   display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
 flex-wrap: wrap;
 }
 

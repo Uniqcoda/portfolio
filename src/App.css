@@ -27,11 +27,19 @@ a {
 h2 {
   font-size: 4.5rem;
   text-align: center;
+  letter-spacing: .1rem;
 }
 
 
 h3 {
   font-size: 4rem;
+  letter-spacing: .1rem;
+
+}
+
+h4 {
+  font-size: 2.5rem;
+  letter-spacing: .05rem;
 }
 
 hr {
@@ -43,5 +51,7 @@ hr {
 
 p {
   font-size: 2rem;
-
+  color: #b7b7b7;
+  line-height: 3.5rem;
+  font-family: "Muli", Sans-serif;
 }

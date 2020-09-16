@@ -5,7 +5,7 @@ export default function Projects() {
 	return (
 		<div className='projects'>
 			<h2>Let's build your ideas together...</h2>
-      <hr/>
+      {/* <hr/> */}
 			<div className='project-cards'>
 				<div className='card'>
 					<h3>Color Game</h3>

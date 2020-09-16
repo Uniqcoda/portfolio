@@ -1,0 +1,32 @@
+.work {
+  padding: 5rem 10rem;
+  background-color: #090927;
+  color: #ffffff;
+}
+
+.work > hr {
+  width: 60rem;
+}
+
+.work-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-card {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  }
+  
+  h4 {
+    text-align: left;
+  }
+  
+  .work-card img {
+    width: 20rem;
+  }
+  
+  .work-card-image {
+    margin-right: 5rem;
+  }
