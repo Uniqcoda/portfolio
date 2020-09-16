@@ -4,7 +4,7 @@ import './style.css';
 
 export default function Header() {
 	return (
-		<div className='header'>
+		<div id='top' className='header'>
 			<div className='brand'>
 				<Link to='/'>Home</Link>
 			</div>

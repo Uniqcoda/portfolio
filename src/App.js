@@ -10,6 +10,10 @@ import Work from './components/work';
 import Banner from './components/banner';
 
 function App() {
+	const scrollTop = () => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	};
+
 	return (
 		<div className='App'>
 			<div className='grid-container'>
@@ -21,6 +25,10 @@ function App() {
 					<About></About>
 					<Tools></Tools>
 					<Contact></Contact>
+				</div>
+				<div className='scroll-to-top' onClick={scrollTop}>
+					<i class='fas fa-arrow-up'></i>
+					<span class='tooltiptext'>Scroll to top</span>
 				</div>
 				<Footer></Footer>
 			</div>
