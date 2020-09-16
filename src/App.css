@@ -1,18 +1,18 @@
 .App {
-  height: 100vh;
-  font-family: Helvetica, sans-serif;
+  font-family: "Philosopher", sans-serif;
 }
 
 .grid-container {
+  height: 100vh;
   display: grid;
   grid-template-areas:
     "header"
     "main"
     "footer";
   grid-template-columns: 1fr;
-  /* fraction unit */
   grid-template-rows: 7rem 1fr 5rem;
-  height: 100%;
+  /* height: 100%; */
+  position: relative;
 }
 
 a {
@@ -30,7 +30,8 @@ a {
   position: -webkit-sticky;
   top: 0;
   z-index: 1;
-  background-color: #090927;
+  font-family: Helvetica, sans-serif;
+  /* background-color: #090927; */
 }
 
 .brand a {
@@ -40,19 +41,15 @@ a {
 }
 
 .header-links a {
-  color: whitesmoke;
+  color: white;
   font-weight: 500;
   padding: .5rem .5rem;
   margin: 0 .5rem;
-  border-bottom: 0 solid #090927;
-  -webkit-transition: border-bottom .5s ease;
-  -moz-transition: border-bottom .5s ease;
-  transition: border-bottom .5s ease;
+  font-size: 2rem;
 }
 
 .header-links a:hover {
-  color: lightgrey;
-  border-bottom: .2rem solid lightblue;
+  border-bottom: .3rem solid lightblue;
 }
 
 .main {
@@ -60,16 +57,17 @@ a {
 }
 
 .banner {
-  height: 60vh;
+  width: 100%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  opacity: .7;
-  color: white;
-  font-family: "Philosopher", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/laptop_table.jpeg) no-repeat center;
+  background-size: cover;
   font-weight: 700;
+  position: absolute;
+  top: 0px;
 }
 
 .banner .bg-light {
@@ -87,6 +85,24 @@ a {
   color: white;
   padding: 1rem;
   font-size: 20rem;
+}
+
+.banner .about-button {
+  margin-top: 5rem;
+  padding: 2rem;
+  outline: none;
+  background-color: #31AD6A;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+
+.banner .about-button:hover {
+  background-color: #1E804B;
 }
 
 .footer {
