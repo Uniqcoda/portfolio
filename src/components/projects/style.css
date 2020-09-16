@@ -1,7 +1,33 @@
 .projects {
-  width: 100%;
-  padding: 2rem 10rem;
+  padding: 5rem 0rem;
   background-color: #090927;
   color: #ffffff;
-  text-align: center;
+}
+
+.projects > hr {
+  width: 60rem;
+}
+
+.project-cards {
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.card {
+max-width: 40rem;
+/* height: 60rem; */
+}
+
+h3 {
+  text-align: left;
+}
+
+img {
+  width: 100%;
+}
+
+.card-image {
+  border: 1rem white solid;
+  margin-top: 5rem;
 }

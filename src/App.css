@@ -23,3 +23,25 @@ a {
   position: relative;
   top: -7rem;
 }
+
+h2 {
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 4rem;
+}
+
+hr {
+  height: .4rem;
+  color: #30AD6A;
+  background-color: #30AD6A;
+  border-width: 0;
+}
+
+p {
+  font-size: 2rem;
+
+}
