@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './style.css';
 
 export default function Projects() {
-  return (
-    <div>
-      Projects section      
-    </div>
-  )
+	return (
+		<div className='projects'>
+			<h2>Let's build your ideas together...</h2>
+		</div>
+	);
 }
