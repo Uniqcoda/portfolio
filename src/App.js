@@ -8,12 +8,9 @@ import Projects from './components/projects';
 import Tools from './components/tools';
 import Work from './components/work';
 import Banner from './components/banner';
+import ScrollArrow from './components/scrollArrow';
 
 function App() {
-	const scrollTop = () => {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	};
-
 	return (
 		<div className='App'>
 			<div className='grid-container'>
@@ -26,10 +23,7 @@ function App() {
 					<Tools></Tools>
 					<Contact></Contact>
 				</div>
-				<div className='scroll-to-top' onClick={scrollTop}>
-					<i class='fas fa-arrow-up'></i>
-					<span class='tooltiptext'>Scroll to top</span>
-				</div>
+				<ScrollArrow></ScrollArrow>
 				<Footer></Footer>
 			</div>
 		</div>

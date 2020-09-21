@@ -67,7 +67,7 @@ p {
   color: white;
 }
 
-.scroll-to-top .tooltiptext {
+.scroll-to-top .tool-tip-text {
   visibility: hidden;
   width: 12rem;
   background-color: black;
@@ -83,6 +83,6 @@ p {
   margin-left: -6rem;
 }
 
-.scroll-to-top:hover .tooltiptext {
+.scroll-to-top:hover .tool-tip-text {
   visibility: visible;
 }
