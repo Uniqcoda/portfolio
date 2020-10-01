@@ -1,15 +1,16 @@
+/* MOBILE */
 .project-cards {
   display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-width: 30rem;
+  width: 28rem;
 }
 
 h3 {
-  text-align: left;
+  text-align: center;
 }
 
 img {
@@ -19,4 +20,30 @@ img {
 .card-image {
   border: 1rem white solid;
   margin-top: 5rem;
+}
+
+
+/* TABLETS */
+@media only screen and (min-width: 600px) {}
+
+/* DESKTOPS */
+@media only screen and (min-width: 768px) {
+  .project-cards h3 {
+    text-align: left;
+  }
+
+  .project-cards {
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 30rem;
+  }
+}
+
+/*  */
+@media only screen and (min-width: 1200px) {
+  .card {
+    width: 36rem;
+  }
 }

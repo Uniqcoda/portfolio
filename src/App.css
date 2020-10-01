@@ -3,14 +3,7 @@
 }
 
 .grid-container {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 7rem 1fr 5rem;
-  position: relative;
+  /* position: relative; */
 }
 
 a {
@@ -18,26 +11,27 @@ a {
 }
 
 .main {
-  grid-area: main;
   position: relative;
-  top: -7rem;
+  /* top: -7rem; */
 }
 
+/* MOBILE FIRST */
+
 h2 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   text-align: center;
   letter-spacing: .08rem;
 }
 
 
 h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: .08rem;
-
+  text-align: center;
 }
 
 h4 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: .05rem;
 }
 
@@ -50,17 +44,47 @@ hr {
 
 p {
   color: #b7b7b7;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
   font-family: "Muli", Sans-serif;
 }
 
 .section {
-  padding: 5rem 10rem;
+  padding: 2rem 3rem;
   background-color: #090927;
   color: #ffffff;
 }
 
 
-.section > hr {
-  width: 60rem;
+.section>hr {
+  width: 90%;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 600px) {}
+
+/* DESKTOPS */
+@media only screen and (min-width: 768px) {
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+
+  h3 {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  .section {
+    padding: 5rem 10rem;
+  }
+
+
+  .section>hr {
+    width: 70%;
+  }
 }

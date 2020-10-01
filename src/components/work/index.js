@@ -4,7 +4,7 @@ import './style.css';
 export default function Work() {
 	return (
 		<div className='section'>
-			<h2>Work</h2>
+			<h3>Work</h3>
 			<hr />
 			<div className='work-cards'>
 				<div className='work-card'>

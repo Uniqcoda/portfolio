@@ -1,24 +1,47 @@
+/* MOBILE */
 .about-cards {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .about-card {
   display: flex;
   margin-top: 5rem;
-  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 h4 {
-  text-align: left;
+  text-align: center;
 }
 
 .about-card img {
-  width: 40rem;
+  width: 20rem;
 }
 
 .about-card-image {
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
+}
+
+
+/* TABLETS */
+@media only screen and (min-width: 600px) {}
+
+/* DESKTOPS */
+@media only screen and (min-width: 768px) {
+  .about-card {
+    justify-content: left;
+    flex-wrap: nowrap;
+  }
+
+  .about-card h4 {
+    text-align: left;
+    margin: 0 0 1rem 0;
+  }
+
+  .about-card-image {
+    margin-right: 3rem;
+  }
 }
 
 .language-progress {
