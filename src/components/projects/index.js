@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
 
+// TODO add lazy loading attributes to images
 export default function Projects() {
 	return (
-		<div className='projects'>
+		<div className='section'>
 			<h2>Let's build your ideas together...</h2>
       {/* <hr/> */}
 			<div className='project-cards'>

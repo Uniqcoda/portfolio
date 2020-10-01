@@ -1,13 +1,3 @@
-.projects {
-  padding: 5rem 10rem;
-  background-color: #090927;
-  color: #ffffff;
-}
-
-.projects > hr {
-  width: 60rem;
-}
-
 .project-cards {
   display: flex;
 justify-content: space-between;
@@ -15,8 +5,7 @@ flex-wrap: wrap;
 }
 
 .card {
-max-width: 40rem;
-/* height: 60rem; */
+width: 30rem;
 }
 
 h3 {

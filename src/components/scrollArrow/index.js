@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css';
 
 const ScrollArrow = () => {
 	const [showScroll, setShowScroll] = useState(false);

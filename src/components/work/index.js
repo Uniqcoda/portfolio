@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Work() {
 	return (
-		<div className='work'>
+		<div className='section'>
 			<h2>Work</h2>
 			<hr />
 			<div className='work-cards'>
