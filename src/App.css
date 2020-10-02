@@ -64,6 +64,9 @@ p {
 
 /* DESKTOPS */
 @media only screen and (min-width: 768px) {
+  .section {
+    padding: 3rem 6rem;
+  }
 
   h2 {
     font-size: 3.5rem;
@@ -78,11 +81,6 @@ p {
   h4 {
     font-size: 2.5rem;
   }
-
-  .section {
-    padding: 5rem 10rem;
-  }
-
 
   .section>hr {
     width: 70%;

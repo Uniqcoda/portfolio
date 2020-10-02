@@ -26,17 +26,6 @@ export default function About() {
 					<p>She is also a song-writer and a great cook.</p>
 				</div>
 			</div>
-			<div className='language-progress'>
-				<progress value='90' max='100'>
-					JavaScript
-				</progress>
-				<progress value='70' max='100'>
-					JavaScript
-				</progress>
-				<progress value='70' max='100'>
-					JavaScript
-				</progress>
-			</div>
 		</div>
 	);
 }

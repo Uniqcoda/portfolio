@@ -19,11 +19,6 @@ h4 {
   width: 20rem;
 }
 
-.about-card-image {
-  /* margin-right: 5rem; */
-}
-
-
 /* TABLETS */
 @media only screen and (min-width: 600px) {}
 
@@ -42,44 +37,4 @@ h4 {
   .about-card-image {
     margin-right: 3rem;
   }
-}
-
-.language-progress {
-  padding: 5rem 0;
-}
-
-progress[value] {
-  width: 100%;
-  margin: 1rem 0;
-  /* Reset the default appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-
-}
-
-progress[value]::-webkit-progress-bar {
-  background: #EEE;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2) inset;
-  border-radius: 3px;
-  /* color: white; */
-
-}
-
-progress[value]::-webkit-progress-value {
-  background-color: #30AD6A;
-  border-radius: 3px;
-
-}
-
-progress {
-  background: #EEE;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
-  border-radius: 3px;
-}
-
-progress[value]::-moz-progress-bar {
-  background-color: #30AD6A;
-  border-radius: 3px;
 }
