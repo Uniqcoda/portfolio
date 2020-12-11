@@ -20,7 +20,7 @@ export default function Header() {
 				<Link to='/#work'>Work</Link>
 				<Link to='/#tools'>Tools</Link>
 				<Link to='/#projects'>Projects</Link>
-				<Link to='javascript:void(0);' className='icon' onClick={openMenu}>
+				<Link to='#' className='icon' onClick={openMenu}>
 					<i className='fas fa-bars'></i> Menu
 				</Link>
 			</div>

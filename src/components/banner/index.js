@@ -11,7 +11,7 @@ export default function Banner() {
 				<div className='bg-dark'>Mary.</div>
 
 				<button className='about-button'>
-					About <i class='fas fa-chevron-down'></i>
+					About <i className='fas fa-chevron-down'></i>
 				</button>
 			</div>
 		</div>
