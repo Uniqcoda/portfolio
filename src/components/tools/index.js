@@ -68,15 +68,15 @@ export default function Tools() {
 			<div className='contact-details'>
 				<div className='contact'>
 					<i className='fas fa-envelope'></i>
-					<p>etokwudomary@gmail.com</p>
+					etokwudomary@gmail.com
 				</div>
 				<div className='contact'>
 					<i className='fas fa-phone'></i>
-					<p>08067190580</p>
+					08067190580
 				</div>
 				<div className='contact'>
 					<i className='fab fa-github'></i>
-					<p>https://github.com/Uniqcoda</p>
+					https://github.com/Uniqcoda
 				</div>
 			</div>
 			<div className='social-media'>

@@ -37,8 +37,10 @@
 
   .contact-details {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
+    padding: 2rem 0;
   }
 
   .contact {
