@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 
 // TODO add lazy loading attributes to images
 export default function Projects() {

@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css'
+import './style.scss'
 
 export default function Footer() {
   return (
     <div className='footer'>
-      Footer section
+      <p>Copyright 2020 - Mary Etokwudo</p>
     </div>
   )
 }

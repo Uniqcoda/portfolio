@@ -1,8 +1,7 @@
 /* MOBILE */
 .banner {
-  height: 50rem;
+  height: 65rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/laptop_table.jpeg) no-repeat center fixed;
@@ -10,35 +9,46 @@
   font-weight: 600;
 }
 
+.centered {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: -5rem;
+}
+
 .banner .bg-light {
+  width:10rem;
   background-color: white;
   color: #090927;
-  padding: 0 1rem;
-  font-size: 2rem;
-  position: relative;
-  left: -4%;
-  bottom: -1%;
+  font-size: 2.2rem;
+  position: absolute;
+  left: 10%;
+  top: -10%;
 }
 
 .banner .bg-dark {
   background-color: #090927;
   color: white;
-  padding: 0 1rem;
-  font-size: 6rem;
+  padding: 0 1.5rem;
+  font-size: 6.5rem;
 }
 
 .banner .about-button {
-  margin-top: 3rem;
+  margin-top: 5rem;
   padding: 1rem 1.5rem;
   outline: none;
   background-color: #31AD6A;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   border: none;
-  border-radius: 1.4rem;
+  border-radius: 1.6rem;
   cursor: pointer;
   transition: background-color 1s ease;
+  align-self: center;
+  width: 9rem;
 }
 
 
@@ -55,9 +65,9 @@
   }
 
   .banner .bg-light {
+    width: 12rem;
     font-size: 3rem;
-    left: -6%;
-    bottom: -2%;
+    left: 7%;
   }
 
   .banner .bg-dark {
@@ -72,9 +82,9 @@
   }
 
   .banner .bg-light {
+    width: 17rem;
     font-size: 4rem;
-    left: -10%;
-    bottom: -2%;
+    left: 10%;
   }
 
   .banner .bg-dark {
@@ -86,6 +96,8 @@
     padding: 1.5rem 2rem;
     font-size: 1.6rem;
     border-radius: 1.8rem;
+    width: 12rem;
+
   }
 
 }

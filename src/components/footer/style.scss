@@ -1,9 +1,13 @@
 
 .footer {
-  height: 5rem;
+  height: 2rem;
   padding: 2rem;
   background-color: #090927;
   color: whitesmoke;
   font-weight: 500;
   font-family: Helvetica, sans-serif;
+  
+  p {
+    font-size: 1.4rem;
+  }
 }

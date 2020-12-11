@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css';
+import './style.scss';
 
 export default function Header() {
 	function openMenu() {
@@ -21,7 +21,7 @@ export default function Header() {
 				<Link to='/#tools'>Tools</Link>
 				<Link to='/#projects'>Projects</Link>
 				<Link to='javascript:void(0);' className='icon' onClick={openMenu}>
-					<i className='fas fa-bars'></i>
+					<i className='fas fa-bars'></i> Menu
 				</Link>
 			</div>
 		</div>
