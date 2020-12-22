@@ -9,17 +9,32 @@ export default function Header() {
 			x.className = 'sidebar';
 		}
 	}
+
+	function scrollToSection(id) {
+		document.getElementById(id).scrollIntoView();
+	}
+
 	return (
 		<div className='header'>
 			<div className='brand'>
 				<Link to='/'>Home</Link>
 			</div>
 			<div className='header-links' id='my-links'>
-				<Link to='/#about'>About</Link>
-				<Link to='/#contact'>Contact</Link>
-				<Link to='/#work'>Work</Link>
-				<Link to='/#tools'>Tools</Link>
-				<Link to='/#projects'>Projects</Link>
+				<Link to='#about' onClick={(e) => scrollToSection('about', e)}>
+					About
+				</Link>
+				<Link to='#contact' onClick={(e) => scrollToSection('contact', e)}>
+					Contact
+				</Link>
+				<Link to='#work' onClick={(e) => scrollToSection('work', e)}>
+					Work
+				</Link>
+				<Link to='#tools' onClick={(e) => scrollToSection('tools', e)}>
+					Tools
+				</Link>
+				<Link to='#projects' onClick={(e) => scrollToSection('projects', e)}>
+					Projects
+				</Link>
 				<Link to='#' className='icon' onClick={openMenu}>
 					<i className='fas fa-bars'></i>
 				</Link>

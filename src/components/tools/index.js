@@ -56,7 +56,7 @@ export default function Tools() {
 	}, []);
 
 	return (
-		<div className='tools'>
+		<div id='tools' className='tools'>
 			<h2>Some tools I work with:</h2>
 			<div className='carousel'>
 				<i className='fas fa-chevron-left' onClick={slideLeft}></i>
@@ -64,7 +64,7 @@ export default function Tools() {
 				<i className='fas fa-chevron-right' onClick={slideRight}></i>
 			</div>
 
-			<h2>Get in touch!</h2>
+			<h2 id='contact'>Get in touch!</h2>
 			<div className='contact-details'>
 				<div className='contact'>
 					<i className='fas fa-envelope'></i>

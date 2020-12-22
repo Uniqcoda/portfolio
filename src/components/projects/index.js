@@ -4,7 +4,7 @@ import './style.scss';
 // TODO add lazy loading attributes to images
 export default function Projects() {
 	return (
-		<div className='section'>
+		<div id='projects' className='section'>
 			<h2>Let's build your ideas together...</h2>
       {/* <hr/> */}
 			<div className='project-cards'>

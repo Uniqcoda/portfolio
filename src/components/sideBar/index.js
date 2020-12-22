@@ -9,6 +9,11 @@ export default function SideBar() {
 			x.className = `${x.className} close`;
 		}
 	}
+
+	function scrollToSection(id) {
+		document.getElementById(id).scrollIntoView();
+	}
+
 	return (
 		<div id='sidebar' className='sidebar close'>
 			<div className='icon'>
@@ -17,11 +22,21 @@ export default function SideBar() {
 				</Link>
 			</div>
 			<div className='sidebar-links' id='my-links'>
-				<Link to='/#about'>About</Link>
-				<Link to='/#contact'>Contact</Link>
-				<Link to='/#work'>Work</Link>
-				<Link to='/#tools'>Tools</Link>
-				<Link to='/#projects'>Projects</Link>
+				<Link to='#about' onClick={(e) => scrollToSection('about', e)}>
+					About
+				</Link>
+				<Link to='#contact' onClick={(e) => scrollToSection('contact', e)}>
+					Contact
+				</Link>
+				<Link to='#work' onClick={(e) => scrollToSection('work', e)}>
+					Work
+				</Link>
+				<Link to='#tools' onClick={(e) => scrollToSection('tools', e)}>
+					Tools
+				</Link>
+				<Link to='#projects' onClick={(e) => scrollToSection('projects', e)}>
+					Projects
+				</Link>
 			</div>
 		</div>
 	);

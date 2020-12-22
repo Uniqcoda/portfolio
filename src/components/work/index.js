@@ -3,7 +3,7 @@ import './style.scss';
 
 export default function Work() {
 	return (
-		<div className='section'>
+		<div id='work' className='section'>
 			<h3>Work</h3>
 			<hr />
 			<div className='work-cards'>
