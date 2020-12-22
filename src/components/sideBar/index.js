@@ -2,27 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.scss';
 
-export default function Header() {
-	function openMenu() {
+export default function SideBar() {
+	function closeMenu() {
 		let x = document.getElementById('sidebar');
-		if (x.className === 'sidebar close') {
-			x.className = 'sidebar';
+		if (x.className === 'sidebar') {
+			x.className = `${x.className} close`;
 		}
 	}
 	return (
-		<div className='header'>
-			<div className='brand'>
-				<Link to='/'>Home</Link>
+		<div id='sidebar' className='sidebar close'>
+			<div className='icon'>
+				<Link to='#' onClick={closeMenu}>
+					<i className='fas fa-times'></i>
+				</Link>
 			</div>
-			<div className='header-links' id='my-links'>
+			<div className='sidebar-links' id='my-links'>
 				<Link to='/#about'>About</Link>
 				<Link to='/#contact'>Contact</Link>
 				<Link to='/#work'>Work</Link>
 				<Link to='/#tools'>Tools</Link>
 				<Link to='/#projects'>Projects</Link>
-				<Link to='#' className='icon' onClick={openMenu}>
-					<i className='fas fa-bars'></i>
-				</Link>
 			</div>
 		</div>
 	);
