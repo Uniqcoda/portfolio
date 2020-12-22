@@ -2,7 +2,6 @@ import React from 'react';
 import './App.scss';
 import Footer from './components/footer';
 import About from './components/about';
-import Contact from './components/contact';
 import Projects from './components/projects';
 import Tools from './components/tools';
 import Work from './components/work';
@@ -19,7 +18,6 @@ function App() {
 					<Work></Work>
 					<About></About>
 					<Tools></Tools>
-					{/* <Contact></Contact> */}
 				</div>
 				<ScrollArrow></ScrollArrow>
 				<Footer></Footer>

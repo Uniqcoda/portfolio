@@ -4,6 +4,10 @@ import SideBar from '../sideBar';
 import './style.scss';
 
 export default function Banner() {
+	function scrollToSection(id) {
+		document.getElementById(id).scrollIntoView();
+	}
+
 	return (
 		<div className='banner'>
 			<Header></Header>
@@ -12,8 +16,11 @@ export default function Banner() {
 				<div className='bg-light'>Hey, I'm</div>
 				<div className='bg-dark'>Mary.</div>
 
-				<button className='about-button'>
-					About <i className='fas fa-chevron-down'></i>
+				<button
+					onClick={(e) => scrollToSection('contact', e)}
+					className='contact-button'
+				>
+					Contact <i className='fas fa-chevron-down'></i>
 				</button>
 			</div>
 		</div>
