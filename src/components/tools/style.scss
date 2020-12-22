@@ -28,6 +28,50 @@
       img {
         width: 8rem;
         height: 7rem;
+        margin: .5rem;
+      }
+
+      @media only screen and (max-width: 600px) {
+        width: 90%;
+
+        img {
+          width: 6.5rem;
+          height: 6rem;
+        }
+      }
+    }
+
+    .initial {
+
+      // select all except the first 5 and hide
+      :nth-child(n+6) {
+        display: none;
+      }
+    }
+
+    .last {
+
+      // select the first 5 and hide
+      :nth-child(-n+5) {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .initial {
+
+        // select all except the first 4 and hide
+        :nth-child(n+5) {
+          display: none;
+        }
+      }
+
+      .last {
+
+        // select the first 4 and hide
+        :nth-child(-n+4) {
+          display: none;
+        }
       }
     }
 

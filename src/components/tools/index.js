@@ -2,52 +2,16 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 export default function Tools() {
-	const images = [
-		'bootstrap.png',
-		'graphql.png',
-		'jest.png',
-		'mongodb.jpeg',
-		'node.png',
-		'react.png',
-		'semanticui.png',
-		'wordpress.png',
-	];
 	const [autoSlide, setAutoSlide] = useState(false);
-	const [counter, setCounter] = useState(images.length);
 	const imageCarousel = document.getElementById('image');
-	function slider() {
-		// if (counter < images.length) {
-		// 	setCounter(counter + 1);
-		// } else {
-		// 	setCounter(1);
-		// }
-		console.log(counter);
 
-		imageCarousel.innerHTML = `
-        <img src='/images/${images[counter - 1]}' alt='react' />
-        <img src='/images/${images[counter - 2]}' alt='boot' />
-        <img src='/images/${images[counter - 3]}' alt='sddsdd' />
-        <img src='/images/${images[counter - 4]}' alt='sdsd' />
-    `;
-	}
 	function slideRight() {
-		if (counter === images.length) {
-			setCounter(counter - 1);
-		} else if (counter > 0 && counter < images.length) {
-			setCounter(counter - 1);
-		} else {
-			setCounter(images.length);
-		}
-		slider();
+imageCarousel.className = 'image-carousel last'
 	}
 
 	function slideLeft() {
-		slider();
-		if (counter < images.length) {
-			setCounter(counter + 1);
-		} else {
-			setCounter(0);
-		}
+    imageCarousel.className = 'image-carousel initial'
+
 	}
 	// if (autoSlide) setInterval(slider, 2000);
 
@@ -60,7 +24,18 @@ export default function Tools() {
 			<h2>Some tools I work with:</h2>
 			<div className='carousel'>
 				<i className='fas fa-chevron-left' onClick={slideLeft}></i>
-				<div className='image-carousel' id='image'></div>
+				<div className='image-carousel initial' id='image'>
+					{/* TODO: Add typescript */}
+					<img src='/images/node.png' alt='node' />
+					<img src='/images/react.png' alt='react' />
+					<img src='/images/typescript.png' alt='typescript' />
+					<img src='/images/jest.png' alt='jest' />
+					<img src='/images/graphql.png' alt='graphql' />
+					<img src='/images/mongodb.jpeg' alt='mongodb' />
+					<img src='/images/bootstrap.png' alt='bootstrap' />
+					<img src='/images/semanticui.png' alt='semanticui' />
+					<img src='/images/wordpress.png' alt='wordpress' />
+				</div>
 				<i className='fas fa-chevron-right' onClick={slideRight}></i>
 			</div>
 
@@ -72,7 +47,7 @@ export default function Tools() {
 				</div>
 				<div className='contact'>
 					<i className='fas fa-phone'></i>
-					08067190580
+					+2348067190580
 				</div>
 				<div className='contact'>
 					<i className='fab fa-github'></i>
