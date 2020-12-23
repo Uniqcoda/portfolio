@@ -2,17 +2,12 @@
   font-family: "Philosopher", sans-serif;
 }
 
-.grid-container {
-  /* position: relative; */
-}
-
 a {
   text-decoration: none;
 }
 
 .main {
   position: relative;
-  /* top: -7rem; */
 }
 
 /* MOBILE FIRST */
@@ -50,7 +45,7 @@ p {
 
 .section {
   padding: 2rem 3rem;
-  background-color: #090927;
+  background-color: #00004c;
   color: #ffffff;
 }
 
@@ -84,5 +79,19 @@ p {
 
   .section>hr {
     width: 70%;
+  }
+}
+
+// for large screens
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 3rem 15rem;
+  }
+}
+
+// for larger screens
+@media screen and (min-width: 1460px) {
+  .section {
+    padding: 3rem 20rem;
   }
 }

@@ -52,7 +52,7 @@
 
       .initial {
 
-        // select all except the first 5 and hide
+        // select all from number 6 forward and hide
         :nth-child(n+6) {
           display: none;
         }
@@ -60,7 +60,8 @@
 
       .last {
 
-        // select the first 5 and hide
+        // select all from number 5 backward and hide
+        // or select from 1 to 5
         :nth-child(-n+5) {
           display: none;
         }
@@ -92,6 +93,11 @@
       justify-content: space-between;
       width: 80%;
       padding: 2rem 0;
+
+          // for large screens
+    @media screen and (min-width: 1200px) {
+      max-width: 100rem;
+    }
     }
 
     .contact {

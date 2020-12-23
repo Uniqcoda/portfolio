@@ -2,53 +2,66 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
   z-index: 2;
   font-family: Helvetica, sans-serif;
   overflow: hidden;
   position: absolute;
   top: 0;
   width: 90%;
-}
 
-.brand a {
-  color: whitesmoke;
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-.header-links {
-  a {
-    color: white;
-    font-weight: 500;
-    padding: .5rem .5rem;
-    margin: 0 .5rem;
-    font-size: 1.4rem;
-  }
-
-  a:hover {
-    border-bottom: .2rem solid lightblue;
-  }
-
-  a.icon {
+  .brand a {
+    color: whitesmoke;
+    font-weight: 700;
     font-size: 2rem;
-    display: none;
   }
 
-  @media screen and (max-width: 600px) {
+  .header-links {
     a {
-      display: none;
+      color: white;
+      font-weight: 500;
+      padding: .5rem .5rem;
+      margin: 0 .5rem;
+      font-size: 1.4rem;
+
+      // for large screens
+      @media screen and (min-width: 1200px) {
+        font-size: 1.6rem;
+      }
+
+      // for larger screens
+      @media screen and (min-width: 1460px) {
+        font-size: 1.8rem;
+      }
+    }
+
+    a:hover {
+      border-bottom: .2rem solid lightblue;
     }
 
     a.icon {
-      display: block;
+      font-size: 2rem;
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      a {
+        display: none;
+      }
+
+      a.icon {
+        display: block;
+      }
     }
   }
-}
 
-/* DESKTOPS */
-@media only screen and (min-width: 768px) {
-  .header {
-    padding: 1.5rem 6rem;
+  // for large screens
+  @media screen and (min-width: 1200px) {
+    width: 80%;
+  }
+
+  // for larger screens
+  @media screen and (min-width: 1460px) {
+    width: 70%;
   }
 }
