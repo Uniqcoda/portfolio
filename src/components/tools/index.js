@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 export default function Tools() {
-	const [autoSlide, setAutoSlide] = useState(false);
+	const [, setAutoSlide] = useState(false);
 	const imageCarousel = document.getElementById('image');
 
 	function slideRight() {
