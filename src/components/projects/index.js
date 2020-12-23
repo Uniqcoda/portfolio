@@ -21,7 +21,7 @@ export default function Projects() {
 					<h3>Tutor Finder</h3>
 					<hr />
 					<div className='card-image'>
-						<a href='#'>
+						<a href='/'>
 							<img src='/images/upthrust.png' alt='tutor-finder-app' />
 						</a>
 					</div>
@@ -34,7 +34,7 @@ export default function Projects() {
 					<h3>Poll Platform</h3>
 					<hr />
 					<div className='card-image'>
-						<a href='#'>
+						<a href='/'>
 							<img src='/images/poll.png' alt='poll-app' />
 						</a>
 					</div>
