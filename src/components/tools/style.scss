@@ -15,13 +15,19 @@
     height: 8rem;
     box-sizing: border-box;
     margin: 2rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
+    .mobile-chevron {
+      display: none;
+      font-size: 2rem;
+      justify-content: center;
+
+      i {
+        padding: 1rem;
+      }
+    }
 
     .image-carousel {
-      width: 80%;
+      width: 100%;
       display: flex;
       justify-content: space-around;
 
@@ -32,8 +38,6 @@
       }
 
       @media only screen and (max-width: 600px) {
-        width: 90%;
-
         img {
           width: 6.5rem;
           height: 6rem;
@@ -41,37 +45,31 @@
       }
     }
 
-    .initial {
-
-      // select all except the first 5 and hide
-      :nth-child(n+6) {
-        display: none;
+    @media only screen and (max-width: 992px) {
+      .mobile-chevron {
+        display: flex;
       }
-    }
 
-    .last {
-
-      // select the first 5 and hide
-      :nth-child(-n+5) {
-        display: none;
-      }
-    }
-
-    @media only screen and (max-width: 600px) {
       .initial {
 
-        // select all except the first 4 and hide
-        :nth-child(n+5) {
+        // select all except the first 5 and hide
+        :nth-child(n+6) {
           display: none;
         }
       }
 
       .last {
 
-        // select the first 4 and hide
-        :nth-child(-n+4) {
+        // select the first 5 and hide
+        :nth-child(-n+5) {
           display: none;
         }
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      i {
+        display: inline;
       }
     }
 
@@ -80,35 +78,44 @@
     }
   }
 
-  .contact-details {
+  .contact-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
-    padding: 2rem 0;
-  }
-
-  .contact {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    font-size: 2.2rem;
-    color: #d0d0d0;
-    padding: .5rem 0;
+    margin-top: 2rem;
+    width: 100%;
 
-    i {
-      color: #39b616;
-      margin-right: 0.5rem;
+
+    .contact-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+      padding: 2rem 0;
     }
-  }
 
-  .social-media {
-    width: 20rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 3rem;
+    .contact {
+      display: flex;
+      align-items: center;
+      font-size: 2.2rem;
+      color: #d0d0d0;
+      padding: .5rem 0;
 
-    img {
-      width: 4rem;
+      i {
+        color: #39b616;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .social-media {
+      width: 20rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 3rem;
+
+      img {
+        width: 4rem;
+      }
     }
   }
 
