@@ -17,7 +17,7 @@ export default function Header() {
 	return (
 		<div className='header'>
 			<div className='brand'>
-				<Link to='/'>Home</Link>
+				<Link to='/'><img src="/images/logo.png" alt="logo"/></Link>
 			</div>
 			<div className='header-links' id='my-links'>
 				<Link to='#about' onClick={(e) => scrollToSection('about', e)}>

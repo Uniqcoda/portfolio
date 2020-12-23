@@ -32,6 +32,7 @@ export default function Tools() {
 					<img src='/images/bootstrap.png' alt='bootstrap' />
 					<img src='/images/semanticui.png' alt='semanticui' />
 					<img src='/images/wordpress.png' alt='wordpress' />
+					<img src='/images/git.jpg' alt='git' />
 				</div>
 				<div className='mobile-chevron'>
 					<i className='fas fa-chevron-circle-left' onClick={slideLeft}></i>

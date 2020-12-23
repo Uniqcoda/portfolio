@@ -12,7 +12,7 @@ export default function Projects() {
 					<hr />
 					<div className='card-image'>
 						<a href='https://uniqcoda.github.io/Color-Game/'>
-							<img src='/images/color_game.png' alt='tutor-finder-app' />
+							<img src='/images/color_game.png' alt='color game' />
 						</a>
 					</div>
 					<p>A color guessing game built with HTML, JS and CSS</p>
