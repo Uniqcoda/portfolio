@@ -1,0 +1,103 @@
+/* MOBILE */
+.banner {
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/laptop_table.jpeg) no-repeat center fixed;
+  background-size: cover;
+  font-weight: 600;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: -5rem;
+}
+
+.banner .bg-light {
+  width:10rem;
+  background-color: white;
+  color: #00004c;
+  font-size: 2.2rem;
+  position: absolute;
+  left: 10%;
+  top: -10%;
+}
+
+.banner .bg-dark {
+  background-color: #00004c;
+  color: white;
+  padding: 0 1.5rem;
+  font-size: 7.5rem;
+}
+
+.banner .contact-button {
+  margin-top: 5rem;
+  padding: 1rem 1.5rem;
+  outline: none;
+  background-color: #31AD6A;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  transition: background-color 1s ease;
+  align-self: center;
+  width: 10rem;
+}
+
+
+.banner .contact-button:hover {
+  background-color: #1E804B;
+}
+
+
+
+/* TABLETS */
+@media only screen and (min-width: 600px) {
+  .banner {
+    height: 70rem;
+  }
+
+  .banner .bg-light {
+    width: 12rem;
+    font-size: 3rem;
+    left: 7%;
+  }
+
+  .banner .bg-dark {
+    font-size: 10rem;
+  }
+}
+
+/* DESKTOPS */
+@media only screen and (min-width: 768px) {
+  .banner {
+    height: 80rem;
+  }
+
+  .banner .bg-light {
+    width: 17rem;
+    font-size: 4rem;
+    left: 10%;
+  }
+
+  .banner .bg-dark {
+    font-size: 18rem;
+  }
+
+  .banner .contact-button {
+    margin-top: 5rem;
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+    border-radius: 1.8rem;
+    width: 12rem;
+
+  }
+
+}

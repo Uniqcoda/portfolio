@@ -1,0 +1,97 @@
+.App {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+}
+
+/* MOBILE FIRST */
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: .08rem;
+}
+
+
+h3 {
+  font-size: 2.5rem;
+  letter-spacing: .08rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: .05rem;
+}
+
+hr {
+  height: .4rem;
+  color: #30AD6A;
+  background-color: #30AD6A;
+  border-width: 0;
+}
+
+p {
+  color: #b7b7b7;
+  line-height: 2.5rem;
+  font-family: "Muli", Sans-serif;
+}
+
+.section {
+  padding: 2rem 3rem;
+  background-color: #00004c;
+  color: #ffffff;
+}
+
+
+.section>hr {
+  width: 90%;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 600px) {}
+
+/* DESKTOPS */
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 3rem 6rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+
+  h3 {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  .section>hr {
+    width: 70%;
+  }
+}
+
+// for large screens
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 3rem 15rem;
+  }
+}
+
+// for larger screens
+@media screen and (min-width: 1460px) {
+  .section {
+    padding: 3rem 20rem;
+  }
+}

@@ -1,0 +1,132 @@
+.tools {
+  height: 55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/nature.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding: 2rem 3rem;
+  color: #ffffff;
+
+  .carousel {
+    width: 100%;
+    height: 8rem;
+    box-sizing: border-box;
+    margin: 2rem auto;
+
+    .mobile-chevron {
+      display: none;
+      font-size: 2rem;
+      justify-content: center;
+
+      i {
+        padding: 1rem;
+      }
+    }
+
+    .image-carousel {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      img {
+        width: 8rem;
+        height: 7rem;
+        margin: .5rem;
+      }
+
+      @media only screen and (max-width: 600px) {
+        img {
+          width: 6.5rem;
+          height: 6rem;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .mobile-chevron {
+        display: flex;
+      }
+
+      .initial {
+
+        // select all from number 6 forward and hide
+        :nth-child(n+6) {
+          display: none;
+        }
+      }
+
+      .last {
+
+        // select all from number 5 backward and hide
+        // or select from 1 to 5
+        :nth-child(-n+5) {
+          display: none;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      i {
+        display: inline;
+      }
+    }
+
+    i {
+      cursor: pointer;
+    }
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+
+
+    .contact-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+      padding: 2rem 0;
+
+          // for large screens
+    @media screen and (min-width: 1200px) {
+      max-width: 100rem;
+    }
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      font-size: 2.2rem;
+      color: #d0d0d0;
+      padding: .5rem 0;
+
+      i {
+        color: #39b616;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .social-media {
+      width: 20rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 3rem;
+
+      img {
+        width: 4rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 45rem;
+  }
+
+}
