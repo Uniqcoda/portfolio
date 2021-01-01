@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import Tools from './components/tools';
 import Work from './components/work';
 import Banner from './components/banner';
+import Loader from './components/loader';
 import ScrollArrow from './components/scrollArrow';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 		<div className='App'>
 			<div className='grid-container'>
 				<div className='main'>
+          <Loader></Loader>
 					<Banner></Banner>
 					<Projects></Projects>
 					<Work></Work>

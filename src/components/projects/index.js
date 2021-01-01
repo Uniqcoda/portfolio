@@ -18,16 +18,15 @@ export default function Projects() {
 					<p>A color guessing game built with HTML, JS and CSS</p>
 				</div>
 				<div className='card'>
-					<h3>Tutor Finder</h3>
+					<h3>Invest City</h3>
 					<hr />
 					<div className='card-image'>
-						<a href='/'>
-							<img src='/images/upthrust.png' alt='tutor-finder-app' />
+						<a href='https://uniqcoda.github.io/invest-city/'>
+							<img src='/images/investcity.jpg' alt='investment platform' />
 						</a>
 					</div>
 					<p>
-						A platform where parents can find private tutors for their children.
-						Built with React, SemanticUI, GraphQL, NodeJS and MongoDB.
+						A platform that helps you invest in various sectors like agriculture and real estate. Built with HTML, CSS, and JavaScript
 					</p>
 				</div>
 				<div className='card'>
