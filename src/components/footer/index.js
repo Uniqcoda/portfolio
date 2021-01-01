@@ -4,7 +4,7 @@ import './style.scss'
 export default function Footer() {
   return (
     <div className='footer'>
-      <p>Copyright 2020 - Mary Etokwudo</p>
+      <p>Copyright &copy; 2021 - Mary Etokwudo</p>
     </div>
   )
 }
