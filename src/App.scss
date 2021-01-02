@@ -2,6 +2,16 @@
   font-family: "Philosopher", sans-serif;
 }
 
+  .grid-container {
+    display: none;
+  }
+  
+  .display .grid-container {
+    display: block;
+  }
+  
+
+
 a {
   text-decoration: none;
 }

@@ -12,9 +12,9 @@ import ScrollArrow from './components/scrollArrow';
 function App() {
 	return (
 		<div className='App'>
+			<Loader></Loader>
 			<div className='grid-container'>
 				<div className='main'>
-          <Loader></Loader>
 					<Banner></Banner>
 					<Projects></Projects>
 					<Work></Work>
