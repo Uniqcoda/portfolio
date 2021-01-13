@@ -12,7 +12,7 @@ export default function Projects() {
 					<hr />
 					<div className='card-image'>
 						<a href='https://uniqcoda.github.io/Color-Game/'>
-							<img src='/images/color_game.png' alt='color game' />
+							<img loading='lazy' src='/images/color_game.png' alt='color game' />
 						</a>
 					</div>
 					<p>A color guessing game built with HTML, JS and CSS</p>
@@ -22,7 +22,7 @@ export default function Projects() {
 					<hr />
 					<div className='card-image'>
 						<a href='https://uniqcoda.github.io/invest-city/'>
-							<img src='/images/investcity.jpg' alt='investment platform' />
+							<img loading='lazy' src='/images/investcity.jpg' alt='investment platform' />
 						</a>
 					</div>
 					<p>
@@ -34,7 +34,7 @@ export default function Projects() {
 					<hr />
 					<div className='card-image'>
 						<a href='/'>
-							<img src='/images/poll.png' alt='poll-app' />
+							<img loading='lazy' src='/images/poll.png' alt='poll-app' />
 						</a>
 					</div>
 					<p>

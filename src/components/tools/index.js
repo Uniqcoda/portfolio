@@ -23,16 +23,16 @@ export default function Tools() {
 			<h2>Some tools I work with:</h2>
 			<div className='carousel'>
 				<div className='image-carousel initial' id='image'>
-					<img src='/images/node.png' alt='node' />
-					<img src='/images/react.png' alt='react' />
-					<img src='/images/typescript.png' alt='typescript' />
-					<img src='/images/jest.png' alt='jest' />
-					<img src='/images/graphql.png' alt='graphql' />
-					<img src='/images/mongodb.jpeg' alt='mongodb' />
-					<img src='/images/bootstrap.png' alt='bootstrap' />
-					<img src='/images/semanticui.png' alt='semanticui' />
-					<img src='/images/wordpress.png' alt='wordpress' />
-					<img src='/images/git.jpg' alt='git' />
+					<img loading='lazy' src='/images/node.png' alt='node' />
+					<img loading='lazy' src='/images/react.png' alt='react' />
+					<img loading='lazy' src='/images/typescript.png' alt='typescript' />
+					<img loading='lazy' src='/images/jest.png' alt='jest' />
+					<img loading='lazy' src='/images/graphql.png' alt='graphql' />
+					<img loading='lazy' src='/images/mongodb.jpeg' alt='mongodb' />
+					<img loading='lazy' src='/images/bootstrap.png' alt='bootstrap' />
+					<img loading='lazy' src='/images/semanticui.png' alt='semanticui' />
+					<img loading='lazy' src='/images/wordpress.png' alt='wordpress' />
+					<img loading='lazy' src='/images/git.jpg' alt='git' />
 				</div>
 				<div className='mobile-chevron'>
 					<i className='fas fa-chevron-circle-left' onClick={slideLeft}></i>
@@ -58,19 +58,19 @@ export default function Tools() {
 				</div>
 				<div className='social-media'>
 					<a className='facebook' href='https://web.facebook.com/ecmary'>
-						<img src='/images/facebook.jpg' alt='facebook' />
+						<img loading='lazy' src='/images/facebook.jpg' alt='facebook' />
 					</a>
 					<a className='twitter' href='https://twitter.com/uniqcoda'>
-						<img src='/images/twitter.png' alt='twitter' />
+						<img loading='lazy' src='/images/twitter.png' alt='twitter' />
 					</a>
 					<a
 						className='linkedin'
 						href='https://www.linkedin.com/in/mary-etokwudo-972b0983/'
 					>
-						<img src='/images/linkedin.png' alt='linkedin' />
+						<img loading='lazy' src='/images/linkedin.png' alt='linkedin' />
 					</a>
 					<a className='github' href='https://github.com/Uniqcoda'>
-						<img src='/images/github.png' alt='github' />
+						<img loading='lazy' src='/images/github.png' alt='github' />
 					</a>
 				</div>
 			</div>

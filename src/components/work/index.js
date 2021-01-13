@@ -9,7 +9,7 @@ export default function Work() {
 			<div className='work-cards'>
 				<div className='work-card'>
 					<div className='work-card-image'>
-						<img src='/images/decagon.jpg' alt='decagon logo' />
+						<img loading='lazy' src='/images/decagon.jpg' alt='decagon logo' />
 					</div>
 					<div className='work-card-text'>
 						<h4>Decagon Institute</h4>
@@ -25,7 +25,7 @@ export default function Work() {
 				</div>
 				<div className='work-card'>
 					<div className='work-card-image'>
-						<img src='/images/okra.png' alt='okra logo' />
+						<img loading='lazy' src='/images/okra.png' alt='okra logo' />
 					</div>
 					<div className='work-card-text'>
 						<h4>Okra.ng</h4>
