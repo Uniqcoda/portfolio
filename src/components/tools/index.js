@@ -31,7 +31,7 @@ export default function Tools() {
 					<img loading='lazy' src='/images/mongodb.jpeg' alt='mongodb' />
 					<img loading='lazy' src='/images/bootstrap.png' alt='bootstrap' />
 					<img loading='lazy' src='/images/semanticui.png' alt='semanticui' />
-					<img loading='lazy' src='/images/wordpress.png' alt='wordpress' />
+					<img loading='lazy' src='/images/solidity1.png' alt='solidity' />
 					<img loading='lazy' src='/images/git.jpg' alt='git' />
 				</div>
 				<div className='mobile-chevron'>
