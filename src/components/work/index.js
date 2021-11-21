@@ -42,7 +42,7 @@ export default function Work() {
 							that transforms how informal retail stores operate.
 						</p>
 						<p>
-							I worked here in 2021 as a backend software engineer, contributing
+							I worked here in 2021 (July - November) as a backend software engineer, contributing
 							to the e-commerce platform of organization.
 						</p>
 					</div>
@@ -61,7 +61,7 @@ export default function Work() {
 							between applications and banking institutions.
 						</p>
 						<p>
-							I worked here in 2019 as a full-stack software engineer,
+							I worked here in 2019 (November - December) as a full-stack software engineer,
 							contributing to the various websites and applications used and
 							released by the company.
 						</p>
