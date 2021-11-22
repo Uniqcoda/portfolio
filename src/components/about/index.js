@@ -8,7 +8,7 @@ export default function About() {
 			<hr />
 			<div className='about-card'>
 				<div className='about-card-image'>
-					<img loading='lazy' src='/images/profile_image.png' alt='profile' />
+					<img loading='lazy' src='/images/profile_image.jpg' alt='profile' />
 				</div>
 				<div className='about-card-text'>
 					<h4>Mary Etokwudo</h4>
