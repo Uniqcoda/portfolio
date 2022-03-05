@@ -9,6 +9,13 @@
   justify-content: center;
   margin-top: 5rem;
   flex-wrap: wrap;
+
+  .work-card-text{
+    a {
+        color: #b7b7b7;
+        text-decoration: underline;
+    }
+  }
 }
 
 h4 {

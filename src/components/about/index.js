@@ -19,11 +19,9 @@ export default function About() {
 						organizations and is dedicated to her job.
 					</p>
 					<p>
-						She started her programming journey as a fullstack web developer,
-						spends most of her time on the backend and is currently adding
-						blockchain technology to her list of technical skills.
+						She started her programming journey as a fullstack web developer and has spent a lot of her time on the backend. She is currently looking out for fullstack roles in order to explore her frontend skills.
 					</p>
-					<p>She is a great cook and she loves visiting new places.</p>
+					<p>Mary is a great cook who also loves visiting new places.</p>
 				</div>
 			</div>
 		</div>
