@@ -14,6 +14,3 @@ I wasn't easy making it responsive but I did it.
 The most challenging part was the carousel. You need to see the code and the UI to understand my pains. I tried several react packages but I never got the result I wanted so I decided to build mine with javascript. 
 
 If you have a faster or better way of doing it, please let me know.
-
-
-PS: I have spent most of my dev career on the backend, so I am very proud of what I was able to achieve on the frontend through this website. So be kind with your judgement 😀
